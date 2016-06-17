@@ -108,6 +108,7 @@ namespace ExceptionDemo
             }
             catch (CustomException)
             {
+                Console.WriteLine("Something went wrong, you should debug.");
                 throw;
             }
         }
