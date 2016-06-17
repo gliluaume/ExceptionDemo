@@ -62,7 +62,7 @@ nor
             Method2();
         }
 ```
-##### Log then rethrow:
+##### Log or do something then rethrow:
 ```cs
         static void Method1GoodRethrow()
         {
