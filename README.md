@@ -25,7 +25,7 @@ Method6 throws a CustomException. Main method catch CustomException :
 		}
 ```
 
-## You should not do following catch because it cut stack trace:
+#### You should not do following catch because it cut stack trace:
 ```cs
         static void Method1BadRethrowCutStack()
         {
@@ -54,15 +54,15 @@ nor
         }
 ```
 
-## You should better do :
-### Let exception propagates
+#### You should better do :
+##### Let exception propagates
 ```cs
         static void Method1Ok()
         {
             Method2();
         }
 ```
-### Log then rethrow:
+##### Log then rethrow:
 ```cs
         static void Method1GoodRethrow()
         {
@@ -78,7 +78,7 @@ nor
             }
         }
 ```
-### Enrich Exception with Data (```cs Dictionary<string, string> ```)
+##### Enrich Exception with Data (```cs Dictionary<string, string> ```)
 ```cs
         static void Method1EnrichException()
         {
