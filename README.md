@@ -78,7 +78,7 @@ nor
             }
         }
 ```
-##### Enrich Exception with Data (```cs Dictionary<string, string> ```)
+##### Enrich Exception with Data (```Dictionary<string, string> ```)
 ```cs
         static void Method1EnrichException()
         {
