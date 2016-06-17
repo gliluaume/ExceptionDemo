@@ -1,11 +1,13 @@
 # ExceptionDemo
 How to handle Exception in submethods or classes in most cases. It could be necessary to catch exception in main or exposed method (for an api) for some reasons. This demo shows how exceptions an theirs stack trace behave. 
 Main method call various methods named Method1* that handles exception in differents ways. Methods Method1* call :
+
 1. Method2
 2. Method3
 3. Method4
 4. Method5
 5. Method6
+
 Method6 throws a CustomException. Main method catch CustomException :
 ```cs
         static void Main(string[] args)
